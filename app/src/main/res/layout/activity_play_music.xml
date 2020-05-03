@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/default_player_bg"
     android:fitsSystemWindows="true"
-    tools:context="com.example.btl.pmnghenhac.activities.PlayMusicActivity">
+    tools:context="com.example.iceman.mp3player.activities.PlayMusicActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_playing"
