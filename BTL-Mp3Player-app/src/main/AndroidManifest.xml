@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.btl.mp3player">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.btl.mp3player.utils.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.btl.mp3player.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.btl.mp3player.activities.DetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.btl.mp3player.activities.PlayMusicActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name="com.example.btl.mp3player.services.PlayMusicService" />
+
+        <receiver android:name="com.example.btl.mp3player.receivers.NextMusicBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.iceman.Mp3Player.ACTION_NEXT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.btl.mp3player.activities.AlbumListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <receiver android:name="com.example.btl.mp3player.receivers.HeadSetReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.example.btl.mp3player.receivers.PrevMusicBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.example.iceman.Mp3Player.ACTION_PREV" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.example.btl.mp3player.receivers.RemoteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.example.btl.mp3player.activities.ArtistListActivity"></activity>
+    </application>
+
+</manifest>
