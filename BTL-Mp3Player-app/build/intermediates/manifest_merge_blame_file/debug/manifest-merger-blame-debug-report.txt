@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.iceman.mp3player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <application
+13-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:7:5-66:19
+14        android:name="com.example.btl.mp3player.utils.AppController"
+14-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:8:9-69
+15        android:allowBackup="true"
+15-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\f1491a81a65d4033a56d6549564e765e\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:11:9-41
+20        android:supportsRtl="true"
+20-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:13:9-40
+23        <activity
+23-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:14:9-23:20
+24            android:name="com.example.btl.mp3player.activities.MainActivity"
+24-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:15:13-77
+25            android:label="@string/app_name"
+25-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:16:13-45
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:17:13-56
+27            <intent-filter>
+27-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:24:9-26:59
+34            android:name="com.example.btl.mp3player.activities.DetailActivity"
+34-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:25:13-79
+35            android:theme="@style/AppTheme.NoActionBar" />
+35-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:26:13-56
+36        <activity
+36-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:27:9-30:59
+37            android:name="com.example.btl.mp3player.activities.PlayMusicActivity"
+37-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:28:13-82
+38            android:launchMode="singleTop"
+38-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:29:13-43
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:30:13-56
+40
+41        <service android:name="com.example.btl.mp3player.services.PlayMusicService" />
+41-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:32:9-87
+41-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:32:18-84
+42
+43        <receiver android:name="com.example.btl.mp3player.receivers.NextMusicBroadcastReceiver" >
+43-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:34:9-38:20
+43-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:34:19-96
+44            <intent-filter>
+44-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:35:13-37:29
+45                <action android:name="com.example.iceman.Mp3Player.ACTION_NEXT" />
+45-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:36:17-83
+45-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:36:25-80
+46            </intent-filter>
+47        </receiver>
+48        <receiver android:name="com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver" >
+48-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:39:9-43:20
+48-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:39:19-101
+49            <intent-filter>
+49-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:13-42:29
+50                <action android:name="com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE" />
+50-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:17-89
+50-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:25-86
+51            </intent-filter>
+52        </receiver>
+53
+54        <activity
+54-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:9-47:59
+55            android:name="com.example.btl.mp3player.activities.AlbumListActivity"
+55-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:46:13-82
+56            android:theme="@style/AppTheme.NoActionBar" />
+56-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:13-56
+57
+58        <receiver android:name="com.example.btl.mp3player.receivers.HeadSetReceiver" >
+58-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:48:9-52:20
+58-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:48:19-85
+59            <intent-filter>
+59-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:49:13-51:29
+60                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+60-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:50:17-76
+60-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:50:25-74
+61            </intent-filter>
+62        </receiver>
+63        <receiver android:name="com.example.btl.mp3player.receivers.PrevMusicBroadcastReceiver" >
+63-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:54:9-58:20
+63-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:54:19-96
+64            <intent-filter>
+64-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:55:13-57:29
+65                <action android:name="com.example.iceman.Mp3Player.ACTION_PREV" />
+65-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:56:17-83
+65-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:56:25-80
+66            </intent-filter>
+67        </receiver>
+68        <receiver android:name="com.example.btl.mp3player.receivers.RemoteReceiver" >
+68-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:59:9-63:20
+68-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:59:19-84
+69            <intent-filter>
+69-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:13-62:29
+70                <action android:name="android.intent.action.MEDIA_BUTTON" />
+70-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:17-77
+70-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:25-74
+71            </intent-filter>
+72        </receiver>
+73
+74        <activity android:name="com.example.btl.mp3player.activities.ArtistListActivity" />
+74-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:9-101
+74-->C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:19-89
+75    </application>
+76
+77</manifest>
