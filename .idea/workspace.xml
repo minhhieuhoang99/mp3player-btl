@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2a4e44f-7271-4da8-be44-9e9881e1e396" name="Default Changelist" comment="" />
+    <list default="true" id="efa90a4d-6848-4134-bdfd-8edb83184494" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +29,15 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1bA49SUVs5DultNwOCm2KpNNg0I" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1bWQ20kxaYSygXWnnX8vbjgpF1m" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mp3player-btl-banane/mp3player-btl-banane" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="DEBUGGABLE_DEVICE" value="motorola-aosp_on_shama-127.0.0.1:62001" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.btl.mp3player" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,17 +93,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2a4e44f-7271-4da8-be44-9e9881e1e396" name="Default Changelist" comment="" />
-      <created>1588061412659</created>
+      <changelist id="efa90a4d-6848-4134-bdfd-8edb83184494" name="Default Changelist" comment="" />
+      <created>1588745158770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588061412659</updated>
+      <updated>1588745158770</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
   </component>
 </project>
