@@ -76,20 +76,20 @@
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable\\ic_widget_repeat_off.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_song_list.xml.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\fragment_song_list.xml"
-    },
-    {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mm_song.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xhdpi\\ic_mm_song.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_widget_shuffle_off.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xhdpi\\ic_widget_shuffle_off.png"
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_song_list.xml.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\fragment_song_list.xml"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_vip.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\ic_vip.png"
+    },
+    {
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_widget_shuffle_off.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xhdpi\\ic_widget_shuffle_off.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_artist.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-mdpi\\pb_next.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_player_v4_next.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-mdpi\\ic_player_v4_next.png"
-    },
-    {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_player_v4_next.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-mdpi\\ic_player_v4_next.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_vip.png.flat",
@@ -116,12 +116,12 @@
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxxhdpi\\ic_notif_close_mtrl.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lrc_default_cover.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable\\ic_lrc_default_cover.png"
-    },
-    {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pb_pause.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\pb_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lrc_default_cover.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable\\ic_lrc_default_cover.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pb_play_pressed.png.flat",
@@ -184,12 +184,12 @@
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxhdpi\\ic_notif_close_mtrl.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_player_v4_next.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxhdpi\\ic_player_v4_next.png"
-    },
-    {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_album_list.xml.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\activity_album_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_player_v4_next.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxhdpi\\ic_player_v4_next.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notif_close_mtrl.png.flat",
@@ -200,16 +200,16 @@
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-mdpi\\ic_player_v4_play_pressed.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_shuffle_header.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\btn_shuffle_header.png"
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_vip.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxxhdpi\\ic_vip.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_vip.png.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxxhdpi\\ic_vip.png"
+        "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_shuffle_header.png.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\btn_shuffle_header.png"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_cover.png.flat",

@@ -8,6 +8,7 @@
     <dimen name="text_size_normal">14dp</dimen>
     <dimen name="text_size_small">12dp</dimen>
     <dimen name="text_size_big">18dp</dimen>
+    <dimen name="text_size_custom">20dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
     <dimen name="notification_height">64dp</dimen>

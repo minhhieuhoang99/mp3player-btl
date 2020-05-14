@@ -909,6 +909,7 @@ dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 dimen tabbar_text_size
 dimen text_size_big
+dimen text_size_custom
 dimen text_size_normal
 dimen text_size_small
 dimen tooltip_corner_radius
@@ -1727,6 +1728,7 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style MyCustomTabText
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
