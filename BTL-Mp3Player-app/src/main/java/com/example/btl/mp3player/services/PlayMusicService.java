@@ -38,9 +38,6 @@ import java.util.Random;
 
 import static android.content.ContentValues.TAG;
 
-/**
- * Created by IceMan on 11/15/2016.
- */
 
 public class PlayMusicService extends Service {
 

@@ -36,7 +36,7 @@ public class AlbumListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album_list);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_album_detail);
+        Toolbar toolbar = findViewById(R.id.toolbar_album_detail);
         setSupportActionBar(toolbar);
         toolbar.setOverflowIcon(ContextCompat.getDrawable(this,R.drawable.abc_ic_menu_moreoverflow_mtrl_alpha));
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -79,11 +79,11 @@ public class AlbumListActivity extends AppCompatActivity {
     }
 
     private void initControls() {
-        mRvSongList = (RecyclerView) findViewById(R.id.rv_album_list_play);
+        mRvSongList = findViewById(R.id.rv_album_list_play);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         mRvSongList.setLayoutManager(layoutManager);
-        imgBackGround = (ImageView) findViewById(R.id.img_back_ground_album);
-        tvAlbumTitle = (TextView) findViewById(R.id.tv_album_title);
-        mIvAlbumCover = (ImageView) findViewById(R.id.img_album_list_play);
+        imgBackGround = findViewById(R.id.img_back_ground_album);
+        tvAlbumTitle = findViewById(R.id.tv_album_title);
+        mIvAlbumCover = findViewById(R.id.img_album_list_play);
     }
 }

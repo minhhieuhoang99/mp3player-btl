@@ -16,9 +16,6 @@ import com.example.btl.mp3player.models.Album;
 
 import java.util.ArrayList;
 
-/**
- * Created by iceman on 10/11/2016.
- */
 
 public class AlbumListAdapter extends RecyclerView.Adapter<AlbumListAdapter.ViewHolderAlbum> {
 

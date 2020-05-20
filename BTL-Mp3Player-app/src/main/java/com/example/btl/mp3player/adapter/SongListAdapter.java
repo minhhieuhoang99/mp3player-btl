@@ -6,17 +6,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.btl.mp3player.R;
 import com.example.btl.mp3player.activities.PlayMusicActivity;
 import com.example.btl.mp3player.models.Song;
 
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 11/8/2016.
- */
+
 
 public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.ViewHolderSong> {
 
@@ -45,6 +45,12 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(ViewHolderSong holder, int position) {
+        String path = mData.get(position).getAlbumImagePath();
+        if (path != null) {
+            Glide.with(mContext).load(path).into(holder.ivImgAlbum);
+        } else {
+            holder.ivImgAlbum.setImageResource(R.drawable.default_cover_big);
+        }
         holder.tvTitle.setText(mData.get(position).getTitle());
         holder.tvArtist.setText(mData.get(position).getArtist());
         holder.setId(position);
@@ -64,6 +70,7 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.ViewHo
     public class ViewHolderSong extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView tvTitle;
         TextView tvArtist;
+        ImageView ivImgAlbum;
         int id;
 
         public int getId() {
@@ -78,6 +85,7 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.ViewHo
             super(itemView);
             tvTitle = (TextView) itemView.findViewById(R.id.tv_song_title_item);
             tvArtist = (TextView) itemView.findViewById(R.id.artist_name_song_item);
+            ivImgAlbum = (ImageView) itemView.findViewById(R.id.iv_album_img_item);
             itemView.setOnClickListener(this);
         }
 

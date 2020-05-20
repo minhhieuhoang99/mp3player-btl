@@ -73,7 +73,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_music);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_playing);
+        Toolbar toolbar = findViewById(R.id.toolbar_playing);
         setSupportActionBar(toolbar);
         toolbar.setOverflowIcon(ContextCompat.getDrawable(this, R.drawable.abc_ic_menu_moreoverflow_mtrl_alpha));
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
@@ -103,6 +103,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
         initEvents();
         registerBroadcastSongComplete();
         registerBroadcastSwitchSong();
+        updatePlayPauseButton();
         setAlbumArt();
         updateHomeActivity();
 
@@ -120,11 +121,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
         Bitmap bitmap;
         String albumPath;
         albumPath = mData.get(currentPos).getAlbumImagePath();
-        if (albumPath != null) {
-            bitmap = BitmapFactory.decodeFile(albumPath);
-        } else {
-            bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.default_player_bg);
-        }
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.default_player_bg);
         bitmap = BlurBuilder.blur(this, bitmap);
         BitmapDrawable bitmapDrawable = new BitmapDrawable(getResources(), bitmap);
         layout.setBackground(bitmapDrawable);
@@ -145,6 +142,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
             totalTime = mPlayMusicService.getTotalTime();
             updateSeekBar();
             updateHomeActivity();
+            updatePlayPauseButton();
             setAlbumArt();
 //            mPlayMusicService.setShowNotification(false);
             mPlayMusicService.showNotification(true);
@@ -237,20 +235,20 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
 
     private void initControls() {
 
-        mTvSongName = (TextView) findViewById(R.id.tv_song_name_play);
-        mTvArtist = (TextView) findViewById(R.id.tv_artist_play);
+        mTvSongName = findViewById(R.id.tv_song_name_play);
+        mTvArtist = findViewById(R.id.tv_artist_play);
 
-        layout = (RelativeLayout) findViewById(R.id.activity_play_music);
-        seekBar = (SeekBar) findViewById(R.id.seek_bar_play);
-        btnPlayPause = (ImageView) findViewById(R.id.btn_play_pause);
-        btnPrev = (ImageView) findViewById(R.id.btn_prev);
-        btnNext = (ImageView) findViewById(R.id.btn_next);
-        btnShuffle = (ImageView) findViewById(R.id.btn_shuffle);
-        btnRepeat = (ImageView) findViewById(R.id.btn_repeat);
-        tvTotalTime = (TextView) findViewById(R.id.tv_time_left);
-        tvTimePlayed = (TextView) findViewById(R.id.tv_time_played);
+        layout = findViewById(R.id.activity_play_music);
+        seekBar = findViewById(R.id.seek_bar_play);
+        btnPlayPause = findViewById(R.id.btn_play_pause);
+        btnPrev = findViewById(R.id.btn_prev);
+        btnNext = findViewById(R.id.btn_next);
+        btnShuffle = findViewById(R.id.btn_shuffle);
+        btnRepeat = findViewById(R.id.btn_repeat);
+        tvTotalTime = findViewById(R.id.tv_time_left);
+        tvTimePlayed = findViewById(R.id.tv_time_played);
 
-        mViewPager = (ViewPager) findViewById(R.id.view_pager_play);
+        mViewPager = findViewById(R.id.view_pager_play);
         mVpPlayAdapter = new ViewPagerPlayAdapter(getSupportFragmentManager(), mData, mData.get(currentPos).getAlbumImagePath());
         mViewPager.setAdapter(mVpPlayAdapter);
         mViewPager.setOffscreenPageLimit(2);
@@ -266,6 +264,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
         Intent intent1 = new Intent(this, PlayMusicService.class);
         startService(intent1);
         setName();
+        updatePlayPauseButton();
         setAlbumArt();
 //        mPlayMusicService.setShowNotification(false);
         mPlayMusicService.showNotification(true);
@@ -403,6 +402,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
             currentPos = mPlayMusicService.getNextPosition();
             path = mData.get(currentPos).getPath();
         }
+        updatePlayPauseButton();
         setAlbumArt();
         playMusic();
     }
@@ -436,6 +436,7 @@ public class PlayMusicActivity extends AppCompatActivity implements View.OnClick
     public void backMusic() {
         currentPos = mPlayMusicService.getPrePosition();
         path = mData.get(currentPos).getPath();
+        updatePlayPauseButton();
         setAlbumArt();
         playMusic();
     }

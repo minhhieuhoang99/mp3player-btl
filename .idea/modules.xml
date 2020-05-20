@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BTL-MP3Player.iml" filepath="$PROJECT_DIR$/BTL-MP3Player.iml" group="BTL-MP3Player" />
-      <module fileurl="file://$PROJECT_DIR$/BTL-Mp3Player-app/BTL-Mp3Player-app.iml" filepath="$PROJECT_DIR$/BTL-Mp3Player-app/BTL-Mp3Player-app.iml" group="BTL-MP3Player/BTL-Mp3Player-app" />
+      <module fileurl="file://$PROJECT_DIR$/BTL-Mp3Player-app/BTL-Mp3Player-app.iml" filepath="$PROJECT_DIR$/BTL-Mp3Player-app/BTL-Mp3Player-app.iml" group="mp3player-btl-banane/BTL-Mp3Player-app" />
+      <module fileurl="file://$PROJECT_DIR$/mp3player-btl-banane.iml" filepath="$PROJECT_DIR$/mp3player-btl-banane.iml" group="mp3player-btl-banane" />
     </modules>
   </component>
 </project>

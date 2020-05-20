@@ -17,9 +17,7 @@ import com.example.btl.mp3player.utils.Constants;
 
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 11/20/2016.
- */
+
 
 public class SongListPlayingAdapter extends RecyclerView.Adapter<SongListPlayingAdapter.ViewHolderSongPlaying> {
 

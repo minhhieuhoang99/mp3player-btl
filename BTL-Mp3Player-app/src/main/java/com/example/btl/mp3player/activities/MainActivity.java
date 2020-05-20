@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -21,11 +22,13 @@ import android.widget.TextView;
 import com.example.btl.mp3player.R;
 import com.example.btl.mp3player.adapter.MainAdapter;
 import com.example.btl.mp3player.models.ItemListMain;
+import com.example.btl.mp3player.models.Song;
 import com.example.btl.mp3player.services.PlayMusicService;
 import com.example.btl.mp3player.utils.AppController;
 import com.example.btl.mp3player.utils.Common;
 import com.example.btl.mp3player.utils.Constants;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -41,13 +44,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView tvTitle;
     TextView tvArtist;
     ImageView imgBackGround;
+    ImageView mIvAlbumCover;
+    ArrayList<Song> mListSong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_main);
-        toolbar.setOverflowIcon(ContextCompat.getDrawable(this,R.drawable.abc_ic_menu_moreoverflow_mtrl_alpha));
+        //toolbar.setOverflowIcon(ContextCompat.getDrawable(this,R.drawable.abc_ic_menu_moreoverflow_mtrl_alpha));
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         AppController.getInstance().setMainActivity(this);
@@ -94,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvArtist = (TextView) findViewById(R.id.tv_artist_current);
         imgBackGround = (ImageView) findViewById(R.id.img_wallpaper_main);
         musicService = (PlayMusicService) AppController.getInstance().getPlayMusicService();
+        mIvAlbumCover = (ImageView) findViewById(R.id.img_album_list_play);
 
         if (musicService != null) {
             currentPlayingBar.setVisibility(View.VISIBLE);
@@ -137,11 +143,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         unregisterReceiver(broadcastReceiverUpdatePlaying);
     }
 
-    @Override
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main_menu, menu);
         return super.onCreateOptionsMenu(menu);
-    }
+    }*/
 
     private void updatePlayingState() {
         if (musicService.isPlaying()) {
@@ -191,8 +197,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_next_current:
                 if (musicService != null) {
                     Intent intent = new Intent(Constants.ACTION_NEXT);
-                    sendBroadcast(intent);
                     showCurrentSong();
+                    sendBroadcast(intent);
+
                 }
                 break;
         }
@@ -213,4 +220,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AppController.getInstance().setMainActivity(null);
         unRegisterBroadcastUpdatePlaying();
     }
+
+
+
+
+
+
+
+
+    private void showCover() {
+
+        String path = mListSong.get(0).getAlbumImagePath();
+        if (path != null) {
+            File file = new File(path);
+            Uri uri = Uri.fromFile(file);
+            mIvAlbumCover.setImageURI(uri);
+        }
+    }
+
 }

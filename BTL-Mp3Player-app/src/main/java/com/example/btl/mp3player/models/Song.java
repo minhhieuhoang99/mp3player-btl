@@ -2,9 +2,7 @@ package com.example.btl.mp3player.models;
 
 import java.io.Serializable;
 
-/**
- * Created by IceMan on 11/8/2016.
- */
+
 
 public class Song implements Serializable {
 
@@ -15,6 +13,7 @@ public class Song implements Serializable {
     private String albumImagePath;
     private int duration;
     private String path;
+
 
     public Song(String id, String title, String album, String artist, String albumImagePath, int duration, String path) {
         this.id = id;
@@ -91,4 +90,6 @@ public class Song implements Serializable {
     public void setAlbumImagePath(String albumImagePath) {
         this.albumImagePath = albumImagePath;
     }
+
+
 }
