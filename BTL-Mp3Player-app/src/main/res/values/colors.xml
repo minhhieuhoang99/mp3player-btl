@@ -17,7 +17,7 @@
     <color name="custom_color">#8C000000</color>
     <color name="toolbar_transparent">#33000000</color>
     <color name="pager_background">#4D000000</color>
-    <color name="transparent_0">#80FFFFFF</color>
+    <color name="custom">#f2f2f2</color>
     <color name="transparent_5">#F2FFFFFF</color>
     <color name="transparent_10">#E6FFFFFF</color>
     <color name="transparent_15">#D9FFFFFF</color>

@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\c57a679180bdad28cf10c343869272b8\android-gif-drawable-1.2.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\7b842e7eb855e107750dbaeaf2359553\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\51a1613f31dbd4a0aea45c7e9d606df1\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\6edf94b06c8bc80072a825db04494b66\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -37,29 +38,29 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\hohoh\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\9baf189892bdcd71960ed5fbd866316b\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\40227f4ed696287ec96b7c1f9aaf7636\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\eef90b9a0443c52f697f2befd53a32d3\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
 	package
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:7:5-66:19
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:7:5-72:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\7b842e7eb855e107750dbaeaf2359553\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\7b842e7eb855e107750dbaeaf2359553\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\d42568138a149e85e911724643def17b\circleimageview-2.1.0\AndroidManifest.xml:9:5-20
@@ -71,117 +72,129 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hohoh\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\f1491a81a65d4033a56d6549564e765e\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:12:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:10:9-44
+	android:largeHeap
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:13:9-33
 	android:icon
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:8:9-69
-activity#com.example.btl.mp3player.activities.MainActivity
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:14:9-23:20
-	android:label
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:16:13-45
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:8:9-44
+activity#com.example.btl.mp3player.activities.SplashScreenActivity
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:16:9-23:20
 	android:theme
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:17:13-56
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:17:13-53
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:15:13-77
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:16:19-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.btl.mp3player.activities.MainActivity
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:24:9-29:20
+	android:label
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:25:13-52
 activity#com.example.btl.mp3player.activities.DetailActivity
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:24:9-26:59
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:30:9-32:59
 	android:theme
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:25:13-79
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:31:13-54
 activity#com.example.btl.mp3player.activities.PlayMusicActivity
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:27:9-30:59
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:33:9-36:59
 	android:launchMode
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:35:13-43
 	android:theme
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:36:13-56
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:28:13-82
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:34:13-57
 service#com.example.btl.mp3player.services.PlayMusicService
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:32:9-87
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:38:9-62
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:32:18-84
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:38:18-59
 receiver#com.example.btl.mp3player.receivers.NextMusicBroadcastReceiver
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:34:9-38:20
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:9-44:20
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:34:19-96
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:19-71
 intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_NEXT
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:35:13-37:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:13-43:29
 action#com.example.iceman.Mp3Player.ACTION_NEXT
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:36:17-83
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:17-83
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:36:25-80
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:25-80
 receiver#com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:39:9-43:20
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:9-49:20
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:39:19-101
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:19-76
 intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:13-42:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:46:13-48:29
 action#com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:17-89
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:17-89
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:25-86
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:25-86
 activity#com.example.btl.mp3player.activities.AlbumListActivity
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:9-47:59
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:51:9-53:59
 	android:theme
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:13-56
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:46:13-82
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:52:13-57
 receiver#com.example.btl.mp3player.receivers.HeadSetReceiver
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:48:9-52:20
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:55:9-59:20
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:48:19-85
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:55:19-60
 intent-filter#action:name:android.media.AUDIO_BECOMING_NOISY
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:49:13-51:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:56:13-58:29
 action#android.media.AUDIO_BECOMING_NOISY
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:50:17-76
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:50:25-74
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:57:25-74
 receiver#com.example.btl.mp3player.receivers.PrevMusicBroadcastReceiver
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:54:9-58:20
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:9-64:20
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:54:19-96
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:19-71
 intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_PREV
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:55:13-57:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:13-63:29
 action#com.example.iceman.Mp3Player.ACTION_PREV
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:56:17-83
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:17-83
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:56:25-80
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:25-80
 receiver#com.example.btl.mp3player.receivers.RemoteReceiver
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:59:9-63:20
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:9-69:20
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:59:19-84
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:19-59
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:13-62:29
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:66:13-68:29
 action#android.intent.action.MEDIA_BUTTON
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:17-77
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:67:17-77
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:25-74
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:67:25-74
 activity#com.example.btl.mp3player.activities.ArtistListActivity
-ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:9-101
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:71:9-67
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:19-89
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:71:19-64
 uses-sdk
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\c57a679180bdad28cf10c343869272b8\android-gif-drawable-1.2.3\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\c57a679180bdad28cf10c343869272b8\android-gif-drawable-1.2.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\7b842e7eb855e107750dbaeaf2359553\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\7b842e7eb855e107750dbaeaf2359553\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\51a1613f31dbd4a0aea45c7e9d606df1\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
@@ -248,13 +261,13 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hohoh\.gradle\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\40227f4ed696287ec96b7c1f9aaf7636\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\eef90b9a0443c52f697f2befd53a32d3\runtime-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\hohoh\.gradle\caches\transforms-2\files-2.1\eef90b9a0443c52f697f2befd53a32d3\runtime-1.1.1\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hohoh\Desktop\Android\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml

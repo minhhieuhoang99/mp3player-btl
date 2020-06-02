@@ -1,4 +1,4 @@
-com.example.iceman.mp3player
+com.example.btl.mp3player
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -261,7 +261,9 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
+attr freezesAnimation
 attr gapBetweenBars
+attr gifSource
 attr goIcon
 attr headerLayout
 attr height
@@ -291,6 +293,7 @@ attr indeterminateProgressStyle
 attr initialActivityCount
 attr insetForeground
 attr isLightTheme
+attr isOpaque
 attr itemBackground
 attr itemHorizontalPadding
 attr itemHorizontalTranslationEnabled
@@ -570,6 +573,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color colorRed
+color custom
 color custom_color
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
@@ -663,7 +667,6 @@ color switch_thumb_normal_material_light
 color toolbar_transparent
 color tooltip_background_dark
 color tooltip_background_light
-color transparent_0
 color transparent_10
 color transparent_100
 color transparent_15
@@ -1009,6 +1012,7 @@ drawable abc_vector_test
 drawable adele
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_splashscreen
 drawable bgm
 drawable btn_shuffle_header
 drawable default_album_cover
@@ -1234,6 +1238,7 @@ id parallax
 id parentPanel
 id parent_matrix
 id pin
+id playing_bar
 id progress_bar_album_list
 id progress_bar_artist_list
 id progress_bar_song_list
@@ -1459,6 +1464,7 @@ menu activity_main_menu
 menu main
 menu menu_search_detail
 mipmap ic_launcher
+mipmap ic_splash
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1760,6 +1766,7 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SplashscreenTheme
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -2072,6 +2079,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers

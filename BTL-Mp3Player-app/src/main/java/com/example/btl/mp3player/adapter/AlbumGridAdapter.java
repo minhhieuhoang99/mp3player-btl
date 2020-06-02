@@ -16,10 +16,6 @@ import com.example.btl.mp3player.models.Album;
 
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 12/8/2016.
- */
-
 public class AlbumGridAdapter extends RecyclerView.Adapter<AlbumGridAdapter.ViewHolderAlbumGrid> {
 
     Context mContext;
@@ -42,6 +38,7 @@ public class AlbumGridAdapter extends RecyclerView.Adapter<AlbumGridAdapter.View
 
     @Override
     public void onBindViewHolder(ViewHolderAlbumGrid holder, int position) {
+
         Album item = mData.get(position);
         String path =  mData.get(position).getAlbumArtPath();
         if(path != null) {
@@ -80,9 +77,9 @@ public class AlbumGridAdapter extends RecyclerView.Adapter<AlbumGridAdapter.View
 
         public ViewHolderAlbumGrid (View itemView) {
             super(itemView);
-            ivImgAlbum = (ImageView) itemView.findViewById(R.id.iv_album_img_item);
-            tvAlbumTitle = (TextView) itemView.findViewById(R.id.tv_album_title_item);
-            tvArtist = (TextView) itemView.findViewById(R.id.tv_artist_album_item);
+            ivImgAlbum = itemView.findViewById(R.id.iv_album_img_item);
+            tvAlbumTitle = itemView.findViewById(R.id.tv_album_title_item);
+            tvArtist = itemView.findViewById(R.id.tv_artist_album_item);
             itemView.setOnClickListener(this);
         }
 

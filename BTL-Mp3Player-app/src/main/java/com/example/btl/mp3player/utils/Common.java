@@ -13,11 +13,14 @@ import com.example.btl.mp3player.activities.MainActivity;
  * Created by IceMan on 12/10/2016.
  */
 
+
+/*decodeResource: Load Bitmap trong Memory*/
 public class Common {
     public static Bitmap getDefaultBg(Context mContext) {
         Bitmap bitmap = BitmapFactory.decodeResource(mContext.getResources(), R.drawable.default_wallpaper);
         return bitmap;
     };
+    /*FLAG_TRANSLUCENT_STATUS: làm mờ status bar*/
     public static void setStatusBarTranslucent(boolean makeTranslucent, Activity activity) {
         if (makeTranslucent) {
             activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);

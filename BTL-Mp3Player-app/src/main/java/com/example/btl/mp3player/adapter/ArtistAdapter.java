@@ -14,10 +14,6 @@ import com.example.btl.mp3player.models.Artist;
 
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 11/12/2016.
- */
-
 public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ViewHolderArtist> {
 
     public static final String KEY_ARTIST = "key_artist";
@@ -25,6 +21,7 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ViewHolder
     Context mContext;
     ArrayList<Artist> mData;
     LayoutInflater mLayoutInflater;
+    /*LayoutInflater: chuyển layout file(Xml) thành View(Java code) trong Android*/
 
     public ArtistAdapter(Context mContext, ArrayList<Artist> mData) {
         this.mContext = mContext;
@@ -71,7 +68,7 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ViewHolder
 
         public ViewHolderArtist(View itemView) {
             super(itemView);
-            tvArtist = (TextView) itemView.findViewById(R.id.artist_title_item);
+            tvArtist = itemView.findViewById(R.id.artist_title_item);
             itemView.setOnClickListener(this);
         }
 

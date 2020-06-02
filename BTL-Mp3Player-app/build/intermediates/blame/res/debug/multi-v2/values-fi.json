@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hohoh\\Desktop\\Android\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hohoh\\.gradle\\caches\\transforms-2\\files-2.1\\f1491a81a65d4033a56d6549564e765e\\support-compat-28.0.0\\res\\values-fi\\values-fi.xml",
