@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hohoh\\.gradle\\caches\\transforms-2\\files-2.1\\cbd3c7455b3aa54cd0b987220ece041f\\support-media-compat-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\hohoh\\.gradle\\caches\\transforms-2\\files-2.1\\ffc4098914b91b7860907277c6a73623\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hohoh\\.gradle\\caches\\transforms-2\\files-2.1\\51a1613f31dbd4a0aea45c7e9d606df1\\appcompat-v7-28.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\hohoh\\.gradle\\caches\\transforms-2\\files-2.1\\4c1e222132d7c6df463bbb7b701f43ab\\appcompat-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

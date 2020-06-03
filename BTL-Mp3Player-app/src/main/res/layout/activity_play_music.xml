@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.btl.mp3player.activities.PlayMusicActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_playing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,9 +39,9 @@
                 android:textSize="@dimen/text_size_normal" />
         </RelativeLayout>
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager_play"
         android:layout_width="match_parent"
         android:layout_height="440dp"
@@ -51,7 +51,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginBottom="235dp">
 
-    </android.support.v4.view.ViewPager>
+    </androidx.viewpager.widget.ViewPager>
 
     <RelativeLayout
         android:id="@+id/rl_button"

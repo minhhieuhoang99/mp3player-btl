@@ -7,10 +7,10 @@ import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.tabs.TabLayout;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,13 +21,10 @@ import android.widget.TextView;
 import com.example.btl.mp3player.R;
 import com.example.btl.mp3player.adapter.MainAdapter;
 import com.example.btl.mp3player.adapter.ViewPagerDetailAdapter;
-import com.example.btl.mp3player.models.Song;
 import com.example.btl.mp3player.services.PlayMusicService;
 import com.example.btl.mp3player.utils.AppController;
 import com.example.btl.mp3player.utils.Common;
 import com.example.btl.mp3player.utils.Constants;
-
-import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity implements View.OnClickListener {
 
