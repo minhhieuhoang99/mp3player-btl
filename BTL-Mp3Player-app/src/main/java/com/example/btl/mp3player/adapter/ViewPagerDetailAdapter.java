@@ -10,9 +10,7 @@ import com.example.btl.mp3player.fragments.FragmentAlbum;
 import com.example.btl.mp3player.fragments.FragmentArtist;
 import com.example.btl.mp3player.fragments.FragmentSongList;
 
-/**
- * Created by IceMan on 11/8/2016.
- */
+
 
 public class ViewPagerDetailAdapter extends FragmentStatePagerAdapter {
 

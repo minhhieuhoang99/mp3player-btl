@@ -9,9 +9,7 @@ import android.view.WindowManager;
 import com.example.btl.mp3player.R;
 import com.example.btl.mp3player.activities.MainActivity;
 
-/**
- * Created by IceMan on 12/10/2016.
- */
+
 
 
 /*decodeResource: Load Bitmap trong Memory*/

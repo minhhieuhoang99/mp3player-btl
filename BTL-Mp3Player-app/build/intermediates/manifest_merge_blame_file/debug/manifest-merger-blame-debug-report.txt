@@ -86,9 +86,9 @@
 49-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:19-71
 50            <intent-filter>
 50-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:13-43:29
-51                <action android:name="com.example.iceman.Mp3Player.ACTION_NEXT" />
-51-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:17-83
-51-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:25-80
+51                <action android:name="com.example.btl.Mp3Player.ACTION_NEXT" />
+51-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:17-80
+51-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:25-77
 52            </intent-filter>
 53        </receiver>
 54        <receiver android:name="com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver" >
@@ -96,9 +96,9 @@
 54-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:19-76
 55            <intent-filter>
 55-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:46:13-48:29
-56                <action android:name="com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE" />
-56-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:17-89
-56-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:25-86
+56                <action android:name="com.example.btl.Mp3Player.ACTION_PLAY_PAUSE" />
+56-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:17-86
+56-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:25-83
 57            </intent-filter>
 58        </receiver>
 59
@@ -124,9 +124,9 @@
 69-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:19-71
 70            <intent-filter>
 70-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:13-63:29
-71                <action android:name="com.example.iceman.Mp3Player.ACTION_PREV" />
-71-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:17-83
-71-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:25-80
+71                <action android:name="com.example.btl.Mp3Player.ACTION_PREV" />
+71-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:17-80
+71-->C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:25-77
 72            </intent-filter>
 73        </receiver>
 74        <receiver android:name="com.example.btl.mp3player.receivers.RemoteReceiver" >

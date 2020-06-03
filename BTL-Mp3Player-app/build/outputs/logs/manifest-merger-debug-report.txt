@@ -133,22 +133,22 @@ receiver#com.example.btl.mp3player.receivers.NextMusicBroadcastReceiver
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:9-44:20
 	android:name
 		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:40:19-71
-intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_NEXT
+intent-filter#action:name:com.example.btl.Mp3Player.ACTION_NEXT
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:41:13-43:29
-action#com.example.iceman.Mp3Player.ACTION_NEXT
-ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:17-83
+action#com.example.btl.Mp3Player.ACTION_NEXT
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:17-80
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:25-80
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:42:25-77
 receiver#com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:9-49:20
 	android:name
 		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:45:19-76
-intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE
+intent-filter#action:name:com.example.btl.Mp3Player.ACTION_PLAY_PAUSE
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:46:13-48:29
-action#com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE
-ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:17-89
+action#com.example.btl.Mp3Player.ACTION_PLAY_PAUSE
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:17-86
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:25-86
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:47:25-83
 activity#com.example.btl.mp3player.activities.AlbumListActivity
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:51:9-53:59
 	android:theme
@@ -169,12 +169,12 @@ receiver#com.example.btl.mp3player.receivers.PrevMusicBroadcastReceiver
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:9-64:20
 	android:name
 		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:60:19-71
-intent-filter#action:name:com.example.iceman.Mp3Player.ACTION_PREV
+intent-filter#action:name:com.example.btl.Mp3Player.ACTION_PREV
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:61:13-63:29
-action#com.example.iceman.Mp3Player.ACTION_PREV
-ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:17-83
+action#com.example.btl.Mp3Player.ACTION_PREV
+ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:17-80
 	android:name
-		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:25-80
+		ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:62:25-77
 receiver#com.example.btl.mp3player.receivers.RemoteReceiver
 ADDED from C:\Users\hohoh\Desktop\copy\mp3player-btl-master\BTL-Mp3Player-app\src\main\AndroidManifest.xml:65:9-69:20
 	android:name

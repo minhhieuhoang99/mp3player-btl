@@ -1,8 +1,6 @@
 package com.example.btl.mp3player.models;
 
-/**
- * Created by IceMan on 11/8/2016.
- */
+
 
 public class ItemListMain {
 

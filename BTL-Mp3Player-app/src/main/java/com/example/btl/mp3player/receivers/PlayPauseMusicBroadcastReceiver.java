@@ -9,9 +9,7 @@ import com.example.btl.mp3player.activities.PlayMusicActivity;
 import com.example.btl.mp3player.services.PlayMusicService;
 import com.example.btl.mp3player.utils.AppController;
 
-/**
- * Created by IceMan on 11/29/2016.
- */
+
 
 public class PlayPauseMusicBroadcastReceiver extends BroadcastReceiver {
     @Override

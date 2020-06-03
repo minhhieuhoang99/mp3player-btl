@@ -9,9 +9,7 @@ import com.example.btl.mp3player.activities.PlayMusicActivity;
 import com.example.btl.mp3player.services.PlayMusicService;
 import com.example.btl.mp3player.utils.AppController;
 
-/**
- * Created by IceMan on 12/4/2016.
- */
+
 
 public class RemoteReceiver extends BroadcastReceiver {
     @Override

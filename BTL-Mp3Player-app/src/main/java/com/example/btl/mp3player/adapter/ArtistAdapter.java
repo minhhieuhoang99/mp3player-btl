@@ -39,6 +39,7 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolderArtist holder, int position) {
+
         holder.tvArtist.setText(mData.get(position).getName());
         holder.setId(position);
     }

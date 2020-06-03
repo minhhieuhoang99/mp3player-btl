@@ -49,12 +49,12 @@
 
         <receiver android:name="com.example.btl.mp3player.receivers.NextMusicBroadcastReceiver" >
             <intent-filter>
-                <action android:name="com.example.iceman.Mp3Player.ACTION_NEXT" />
+                <action android:name="com.example.btl.Mp3Player.ACTION_NEXT" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.example.btl.mp3player.receivers.PlayPauseMusicBroadcastReceiver" >
             <intent-filter>
-                <action android:name="com.example.iceman.Mp3Player.ACTION_PLAY_PAUSE" />
+                <action android:name="com.example.btl.Mp3Player.ACTION_PLAY_PAUSE" />
             </intent-filter>
         </receiver>
 
@@ -69,7 +69,7 @@
         </receiver>
         <receiver android:name="com.example.btl.mp3player.receivers.PrevMusicBroadcastReceiver" >
             <intent-filter>
-                <action android:name="com.example.iceman.Mp3Player.ACTION_PREV" />
+                <action android:name="com.example.btl.Mp3Player.ACTION_PREV" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.example.btl.mp3player.receivers.RemoteReceiver" >

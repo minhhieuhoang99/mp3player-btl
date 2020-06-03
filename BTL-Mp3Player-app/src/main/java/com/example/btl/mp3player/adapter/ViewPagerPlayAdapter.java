@@ -10,9 +10,7 @@ import com.example.btl.mp3player.models.Song;
 
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 11/20/2016.
- */
+
 
 public class ViewPagerPlayAdapter extends FragmentStatePagerAdapter {
 

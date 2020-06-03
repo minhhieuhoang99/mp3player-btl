@@ -3,9 +3,7 @@ package com.example.btl.mp3player.models;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * Created by IceMan on 11/12/2016.
- */
+
 
 public class Artist implements Serializable {
     private int id;

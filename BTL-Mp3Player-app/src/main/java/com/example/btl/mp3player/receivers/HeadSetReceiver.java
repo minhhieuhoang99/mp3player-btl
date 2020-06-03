@@ -10,9 +10,7 @@ import com.example.btl.mp3player.activities.PlayMusicActivity;
 import com.example.btl.mp3player.services.PlayMusicService;
 import com.example.btl.mp3player.utils.AppController;
 
-/**
- * Created by IceMan on 12/11/2016.
- */
+
 
 public class HeadSetReceiver extends BroadcastReceiver {
     @Override public void onReceive(Context context, Intent intent) {

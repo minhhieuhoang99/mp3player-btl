@@ -74,6 +74,8 @@ public class AlbumListAdapter extends RecyclerView.Adapter<AlbumListAdapter.View
             return id;
         }
 
+
+
         public void setId(int id) {
             this.id = id;
         }

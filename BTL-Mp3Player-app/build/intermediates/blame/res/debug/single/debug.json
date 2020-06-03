@@ -144,6 +144,10 @@
         "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-mdpi\\pb_next.png"
     },
     {
+        "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable_adele.jpg.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable\\adele.jpg"
+    },
+    {
         "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_player_v4_next.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\ic_player_v4_next.png"
     },
@@ -184,12 +188,12 @@
         "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-hdpi\\default_artist_cover.png"
     },
     {
-        "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_default_album_cover.png.flat",
         "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\drawable-xxhdpi\\default_album_cover.png"
+    },
+    {
+        "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
         "merged": "C:\\Users\\hohoh\\Desktop\\copy\\mp3player-btl-master\\BTL-Mp3Player-app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notif_close_mtrl.png.flat",

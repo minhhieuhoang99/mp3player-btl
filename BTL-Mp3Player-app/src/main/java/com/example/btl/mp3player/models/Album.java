@@ -5,9 +5,7 @@ import android.graphics.Bitmap;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * Created by iceman on 10/11/2016.
- */
+
 
 public class Album implements Serializable {
 

@@ -4,9 +4,7 @@ import android.graphics.Rect;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
-/**
- * Created by IceMan on 12/8/2016.
- */
+
 
 public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
     private int spanCount;
